@@ -1,0 +1,79 @@
+.education-container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.education-container .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.emblem {
+    margin-top: 30px;
+}
+
+.text-content {
+    padding-left: 100px;
+}
+
+.chip {
+    color: rgb(39, 40, 34) !important;
+    background-color: white !important;
+    font-size: 0.8rem !important;
+    height: 25px !important;
+  
+    span {
+        font-family: 'Courier Prime', monospace;
+        color: rgb(39, 40, 34);
+    }
+}
+
+.flex-chips {
+    line-height: 2;
+    margin: 0.5;
+
+    .chip-title {
+        color: white;
+        padding-right: 10px;
+    }
+
+    .MuiChip-root {
+        margin-right: 0.5em;
+    }
+
+    .MuiChip-outlined {
+        background-color: #e0e0e0;
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+            monospace;
+    }
+
+    .MuiChip-outlined span {
+        color: rgb(39, 40, 34);
+    }
+}
+
+@media screen {
+    @media (max-width: 768px) {
+        .education-container {
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .education-container .content {
+            display: initial;
+        }
+
+        .education-container .content .text-content {
+            padding-left: 0;
+        }
+    }
+
+    @media (max-width: 567px) {
+        .content {
+            font-size: 12px;
+        }
+    }
+}

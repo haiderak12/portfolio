@@ -1,0 +1,45 @@
+.experience-container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.experience-container .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    li {
+        font-weight: 400;
+    }
+
+    .position {
+        padding: 0px 20px;
+        border: 2px solid #eaf2fa;
+        border-radius: 10px;
+        background: radial-gradient(ellipse at center, 
+        rgba(0, 0, 0, 0) 50%,  /* Transparent in the center */
+        rgba(0, 0, 0, 0.4) 100%);
+        background-color: rgb(84, 84, 84);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .position:hover {
+        box-shadow: 0 0 50px 10px rgb(168, 167, 167);
+    }
+
+    .keyword {
+        font-weight: bold;
+        color: aqua;
+        transition: text-shadow 0.3s ease;
+    }
+
+    .keyword:hover {
+        text-shadow: 0 0 10px aqua;
+    }
+}
