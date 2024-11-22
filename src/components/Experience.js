@@ -17,7 +17,7 @@ export default function Experience() {
                                 Google Test C++ framework</span> including setup for testing 
                                 environment/infrastructure; Repaired several source code bugs and 
                                 averaged <span className="keyword">91% code coverage</span> per unit.</li>
-                            <li>Assisted in preparation for software demo unit through app and firmware testing 
+                            <li>Assisted in preparation for software demo unit through android app and firmware testing 
                                 in <span className="keyword">C#</span> and <span className="keyword">STM32Cube</span>. 
                                 Testing includes bluetooth connection, serial port connection, transmitter functionality, 
                                 hardware functionality, etc.</li>

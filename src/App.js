@@ -86,7 +86,9 @@ export default function App() {
       <section id="experience">
         <Experience />
       </section>
-      <section id="projects">PROJECTS</section>
+      <section id="projects">
+        <Projects />
+      </section>
       <section id="contact">
         <Contact />
       </section>
