@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/styles/Experience.css'
-import sunrise_logo from '../assets/images/sunriselabs_logo.png'
+// import sunrise_logo from '../assets/images/sunriselabs_logo.png'
 
 export default function Experience() {
     return (

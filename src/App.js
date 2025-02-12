@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import React, { useState, useEffect } from 'react';
 import HomeIcon from '@mui/icons-material/Home';
 import { Link } from "react-scroll";
 
@@ -12,27 +11,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
-
-  const [showNav, setShowNav] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const proficiencySection = document.getElementById('proficiency');
-      const rect = proficiencySection.getBoundingClientRect();
-      if (rect.top <= 1000) {
-        setShowNav(true);
-      } else {
-        setShowNav(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
 
   return (
     <div className="App">
@@ -92,6 +70,7 @@ export default function App() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
     </div>
   );
 }

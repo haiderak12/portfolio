@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/styles/Education.css'
-import emblem from '../assets/images/bu_emblem.png'
+// import emblem from '../assets/images/bu_emblem.png'
 import emblem_white from '../assets/images/bu_emblem_white.png'
 import Chip from '@mui/material/Chip';
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import '../assets/styles/Footer.css';
 
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-      {/* Add social media links */}
+      <p>&copy; 2025 Haider Khan. All Rights Reserved.</p>
+      {/* social media links */}
     </footer>
   );
 };
